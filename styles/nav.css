@@ -6,7 +6,7 @@ nav {
   line-height: 0;
 }
 
-ul {
+nav ul {
   list-style: none;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@ ul {
   padding-block: 8px;
 }
 
- ul li:last-child img {
+ nav ul li:last-child img {
   width: 40px;
   border-radius: 50%;
 }
