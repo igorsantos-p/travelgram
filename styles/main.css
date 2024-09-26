@@ -10,3 +10,13 @@ main img {
   height: 286px;
   object-fit: cover;
 }
+
+
+@media (width < 696px) {
+  main {
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 1rem;
+  }
+}
